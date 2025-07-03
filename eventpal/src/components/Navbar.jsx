@@ -1,18 +1,23 @@
 // src/components/Navbar.jsx
 import React from 'react';
+import Home from './Home';
+import Discover from './Discover';
+import Bookmarks from '../pages/Bookmarks';
+import CreateEvent from '../pages/CreateEvent';
+import EventCard from './EventCard';
 
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>IndiaEvents</h1>
+      <h1>EventPal</h1>
       <ul className="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Create Event</a></li>
-        <li><a href="#">Discover</a></li>
-        <li><a href="#">Event Details</a></li>
-        <li><a href="#">My Bookmark</a></li>
-        <li><a href="#">Calendar View</a></li>
+        <li><a href="/"> Home </a></li>
+        <li><a href="/create">Create Event</a></li>
+        <li><a href="/discover"> Discover </a></li>
+       
+        <li><a href="/bookmarks"> Bookmarks </a></li>
+        
       </ul>
     </nav>
   );

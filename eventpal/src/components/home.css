@@ -1,0 +1,22 @@
+/* src/pages/home.css */
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-subtitle {
+  font-size: 1.8rem;
+  color: #e3153e;
+}
+
+.typed-text {
+  color: #ff4500;
+  font-weight: 600;
+}
